@@ -4,7 +4,7 @@ import { BiHomeSmile } from 'react-icons/bi';
 import { LuContact } from 'react-icons/lu';
 import { MdOutlineWorkOutline } from 'react-icons/md';
 import { BsBook } from 'react-icons/bs';
-import Button from './Button';
+import m5 from '../../assets/images/codetoform_abstract_backgrounds_07.png';
 
 const Navbar = () => {
   const [activeIcon, setActiveIcon] = useState('');
@@ -15,7 +15,15 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="h-screen w-full relative flex overflow-hidden backbg">
+      <div
+        className="h-screen w-full relative flex overflow-hidden"
+        style={{
+          backgroundImage: `url(${m5})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
         <aside className="h-full w-16 flex flex-col space-y-10 items-center justify-center relative text-white glass">
           <Link
             to="/"

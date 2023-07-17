@@ -76,11 +76,3 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     animation: spin 5s infinite linear;
   }
 
-
-  .backbg
-  {
-    background-image: url('../../port/src/assets/images/codetoform_abstract_backgrounds_07.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
